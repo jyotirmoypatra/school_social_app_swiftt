@@ -1,0 +1,6 @@
+framework module Pods_CampusCircle {
+  umbrella header "Pods-CampusCircle-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1731997CFAA372B0A2854D60 /* Pods_CampusCircleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA69FC6AF41B6BFFA467B7C /* Pods_CampusCircleTests.framework */; };
+		32E0CACF19C05C58DB9E6121 /* Pods_CampusCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E1124812A4A1215295D9F3 /* Pods_CampusCircle.framework */; };
+		5A2151B72B97A063003EBA82 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2151B62B97A063003EBA82 /* ProfileViewController.swift */; };
+		5A2151B92B97A2F9003EBA82 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2151B82B97A2F9003EBA82 /* HomeFeedViewController.swift */; };
+		5A2151BB2B97A50D003EBA82 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2151BA2B97A50C003EBA82 /* RecentViewController.swift */; };
+		5A4D55F02B9087F900F93FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D55EF2B9087F900F93FB8 /* AppDelegate.swift */; };
+		5A4D55F22B9087F900F93FB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D55F12B9087F900F93FB8 /* SceneDelegate.swift */; };
+		5A4D55F72B9087F900F93FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D55F52B9087F900F93FB8 /* Main.storyboard */; };
+		5A4D55FA2B9087F900F93FB8 /* CampusCircle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D55F82B9087F900F93FB8 /* CampusCircle.xcdatamodeld */; };
+		5A4D55FC2B9087FB00F93FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D55FB2B9087FB00F93FB8 /* Assets.xcassets */; };
+		5A4D55FF2B9087FB00F93FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D55FD2B9087FB00F93FB8 /* LaunchScreen.storyboard */; };
+		5A4D560A2B9087FB00F93FB8 /* CampusCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D56092B9087FB00F93FB8 /* CampusCircleTests.swift */; };
+		5A4D56142B9087FB00F93FB8 /* CampusCircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D56132B9087FB00F93FB8 /* CampusCircleUITests.swift */; };
+		5A4D56162B9087FB00F93FB8 /* CampusCircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D56152B9087FB00F93FB8 /* CampusCircleUITestsLaunchTests.swift */; };
+		5A4D56242B908D3800F93FB8 /* campuscircle-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D56232B908D3800F93FB8 /* campuscircle-logo.png */; };
+		5A4D56262B908F0800F93FB8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D56252B908F0800F93FB8 /* MainViewController.swift */; };
+		5A4D56292B90938400F93FB8 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D56282B90938400F93FB8 /* FontAwesome.otf */; };
+		5A4D562B2B9094C600F93FB8 /* Utill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D562A2B9094C600F93FB8 /* Utill.swift */; };
+		5A4D562D2B90B5B100F93FB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D562C2B90B5B100F93FB8 /* LoginViewController.swift */; };
+		5A4D56312B90BAE600F93FB8 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D56302B90BAE600F93FB8 /* RegistrationViewController.swift */; };
+		5A98D4CC2B95EE700006F891 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A98D4CA2B95EE700006F891 /* student.png */; };
+		5A98D4CD2B95EE700006F891 /* teacher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A98D4CB2B95EE700006F891 /* teacher.jpg */; };
+		5A98D4CF2B95F2D90006F891 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A98D4CE2B95F2D90006F891 /* tick.png */; };
+		5A98D4D12B95FC470006F891 /* RegisterTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98D4D02B95FC470006F891 /* RegisterTeacherViewController.swift */; };
+		5AA945A22B91ED9C00573580 /* SelectorPopUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA945A12B91ED9C00573580 /* SelectorPopUpTableViewCell.swift */; };
+		5AD131C72B9881AD004AB93B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD131C62B9881AD004AB93B /* PostTableViewCell.swift */; };
+		5AD131CB2B988AF1004AB93B /* school2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5AD131C82B988AF1004AB93B /* school2.jpeg */; };
+		5AD131CC2B988AF1004AB93B /* school3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AD131C92B988AF1004AB93B /* school3.jpg */; };
+		5AD131CD2B988AF1004AB93B /* school1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AD131CA2B988AF1004AB93B /* school1.jpg */; };
+		5AD131CF2B98A8DE004AB93B /* AddNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD131CE2B98A8DE004AB93B /* AddNewPostViewController.swift */; };
+		5AE985F62B9224BF003FFEBF /* RegisterStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE985F52B9224BF003FFEBF /* RegisterStudentViewController.swift */; };
+		5AF361842B9ADD3C00DA5DB2 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF361832B9ADD3C00DA5DB2 /* placeholder.png */; };
+		5AF5DD2E2B90DCC600D3F347 /* SelectorPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5DD2D2B90DCC600D3F347 /* SelectorPopUpViewController.swift */; };
+		B6E324E934A3D1498E119F3A /* Pods_CampusCircle_CampusCircleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A348BAE27D13DF36D77CFB /* Pods_CampusCircle_CampusCircleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4D56062B9087FB00F93FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4D55E42B9087F900F93FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4D55EB2B9087F900F93FB8;
+			remoteInfo = CampusCircle;
+		};
+		5A4D56102B9087FB00F93FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4D55E42B9087F900F93FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4D55EB2B9087F900F93FB8;
+			remoteInfo = CampusCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E1124812A4A1215295D9F3 /* Pods_CampusCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183EAA7BB069974ED0FB670D /* Pods-CampusCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusCircle.debug.xcconfig"; path = "Target Support Files/Pods-CampusCircle/Pods-CampusCircle.debug.xcconfig"; sourceTree = "<group>"; };
+		27ADED9FFF5892FB08CF88B9 /* Pods-CampusCircle-CampusCircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusCircle-CampusCircleUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampusCircle-CampusCircleUITests/Pods-CampusCircle-CampusCircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A2151B62B97A063003EBA82 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5A2151B82B97A2F9003EBA82 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		5A2151BA2B97A50C003EBA82 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		5A4D55EC2B9087F900F93FB8 /* CampusCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4D55EF2B9087F900F93FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A4D55F12B9087F900F93FB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A4D55F62B9087F900F93FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4D55F92B9087F900F93FB8 /* CampusCircle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CampusCircle.xcdatamodel; sourceTree = "<group>"; };
+		5A4D55FB2B9087FB00F93FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4D55FE2B9087FB00F93FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A4D56002B9087FB00F93FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4D56052B9087FB00F93FB8 /* CampusCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4D56092B9087FB00F93FB8 /* CampusCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusCircleTests.swift; sourceTree = "<group>"; };
+		5A4D560F2B9087FB00F93FB8 /* CampusCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4D56132B9087FB00F93FB8 /* CampusCircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusCircleUITests.swift; sourceTree = "<group>"; };
+		5A4D56152B9087FB00F93FB8 /* CampusCircleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusCircleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A4D56232B908D3800F93FB8 /* campuscircle-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campuscircle-logo.png"; sourceTree = "<group>"; };
+		5A4D56252B908F0800F93FB8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5A4D56282B90938400F93FB8 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		5A4D562A2B9094C600F93FB8 /* Utill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utill.swift; sourceTree = "<group>"; };
+		5A4D562C2B90B5B100F93FB8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A4D56302B90BAE600F93FB8 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		5A98D4CA2B95EE700006F891 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student.png; sourceTree = "<group>"; };
+		5A98D4CB2B95EE700006F891 /* teacher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teacher.jpg; sourceTree = "<group>"; };
+		5A98D4CE2B95F2D90006F891 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		5A98D4D02B95FC470006F891 /* RegisterTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTeacherViewController.swift; sourceTree = "<group>"; };
+		5AA945A12B91ED9C00573580 /* SelectorPopUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorPopUpTableViewCell.swift; sourceTree = "<group>"; };
+		5AD131C62B9881AD004AB93B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		5AD131C82B988AF1004AB93B /* school2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = school2.jpeg; sourceTree = "<group>"; };
+		5AD131C92B988AF1004AB93B /* school3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = school3.jpg; sourceTree = "<group>"; };
+		5AD131CA2B988AF1004AB93B /* school1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = school1.jpg; sourceTree = "<group>"; };
+		5AD131CE2B98A8DE004AB93B /* AddNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPostViewController.swift; sourceTree = "<group>"; };
+		5AE985F52B9224BF003FFEBF /* RegisterStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterStudentViewController.swift; sourceTree = "<group>"; };
+		5AF361832B9ADD3C00DA5DB2 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		5AF5DD2D2B90DCC600D3F347 /* SelectorPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorPopUpViewController.swift; sourceTree = "<group>"; };
+		70A348BAE27D13DF36D77CFB /* Pods_CampusCircle_CampusCircleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusCircle_CampusCircleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		989109CD7FAF7D9A192C60C2 /* Pods-CampusCircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusCircleTests.debug.xcconfig"; path = "Target Support Files/Pods-CampusCircleTests/Pods-CampusCircleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A04920E2F6E4C3D98F8EFD /* Pods-CampusCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusCircle.release.xcconfig"; path = "Target Support Files/Pods-CampusCircle/Pods-CampusCircle.release.xcconfig"; sourceTree = "<group>"; };
+		DD24A5ADFC530996C0228C27 /* Pods-CampusCircle-CampusCircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusCircle-CampusCircleUITests.release.xcconfig"; path = "Target Support Files/Pods-CampusCircle-CampusCircleUITests/Pods-CampusCircle-CampusCircleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EEA69FC6AF41B6BFFA467B7C /* Pods_CampusCircleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusCircleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0D1B0745B3626B78709ABA /* Pods-CampusCircleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusCircleTests.release.xcconfig"; path = "Target Support Files/Pods-CampusCircleTests/Pods-CampusCircleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4D55E92B9087F900F93FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E0CACF19C05C58DB9E6121 /* Pods_CampusCircle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D56022B9087FB00F93FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731997CFAA372B0A2854D60 /* Pods_CampusCircleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D560C2B9087FB00F93FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E324E934A3D1498E119F3A /* Pods_CampusCircle_CampusCircleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DCB28067E9AF1AC759AE304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				183EAA7BB069974ED0FB670D /* Pods-CampusCircle.debug.xcconfig */,
+				A4A04920E2F6E4C3D98F8EFD /* Pods-CampusCircle.release.xcconfig */,
+				27ADED9FFF5892FB08CF88B9 /* Pods-CampusCircle-CampusCircleUITests.debug.xcconfig */,
+				DD24A5ADFC530996C0228C27 /* Pods-CampusCircle-CampusCircleUITests.release.xcconfig */,
+				989109CD7FAF7D9A192C60C2 /* Pods-CampusCircleTests.debug.xcconfig */,
+				FF0D1B0745B3626B78709ABA /* Pods-CampusCircleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A2151B52B97A034003EBA82 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5A2151B62B97A063003EBA82 /* ProfileViewController.swift */,
+				5A2151B82B97A2F9003EBA82 /* HomeFeedViewController.swift */,
+				5A2151BA2B97A50C003EBA82 /* RecentViewController.swift */,
+				5AD131C62B9881AD004AB93B /* PostTableViewCell.swift */,
+				5AD131CE2B98A8DE004AB93B /* AddNewPostViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		5A4D55E32B9087F900F93FB8 = {
+			isa = PBXGroup;
+			children = (
+				5A4D55EE2B9087F900F93FB8 /* CampusCircle */,
+				5A4D56082B9087FB00F93FB8 /* CampusCircleTests */,
+				5A4D56122B9087FB00F93FB8 /* CampusCircleUITests */,
+				5A4D55ED2B9087F900F93FB8 /* Products */,
+				2DCB28067E9AF1AC759AE304 /* Pods */,
+				6712C6553A914049BFDFAC96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4D55ED2B9087F900F93FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D55EC2B9087F900F93FB8 /* CampusCircle.app */,
+				5A4D56052B9087FB00F93FB8 /* CampusCircleTests.xctest */,
+				5A4D560F2B9087FB00F93FB8 /* CampusCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4D55EE2B9087F900F93FB8 /* CampusCircle */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D55EF2B9087F900F93FB8 /* AppDelegate.swift */,
+				5A4D55F12B9087F900F93FB8 /* SceneDelegate.swift */,
+				5A4D56252B908F0800F93FB8 /* MainViewController.swift */,
+				5A2151B52B97A034003EBA82 /* Dashboard */,
+				5A4D56322B90BAF500F93FB8 /* Login */,
+				5A4D56222B908D1400F93FB8 /* Img */,
+				5A4D56272B90936500F93FB8 /* SupportFile */,
+				5A4D55F52B9087F900F93FB8 /* Main.storyboard */,
+				5A4D55FB2B9087FB00F93FB8 /* Assets.xcassets */,
+				5A4D55FD2B9087FB00F93FB8 /* LaunchScreen.storyboard */,
+				5A4D56002B9087FB00F93FB8 /* Info.plist */,
+				5A4D55F82B9087F900F93FB8 /* CampusCircle.xcdatamodeld */,
+			);
+			path = CampusCircle;
+			sourceTree = "<group>";
+		};
+		5A4D56082B9087FB00F93FB8 /* CampusCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D56092B9087FB00F93FB8 /* CampusCircleTests.swift */,
+			);
+			path = CampusCircleTests;
+			sourceTree = "<group>";
+		};
+		5A4D56122B9087FB00F93FB8 /* CampusCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D56132B9087FB00F93FB8 /* CampusCircleUITests.swift */,
+				5A4D56152B9087FB00F93FB8 /* CampusCircleUITestsLaunchTests.swift */,
+			);
+			path = CampusCircleUITests;
+			sourceTree = "<group>";
+		};
+		5A4D56222B908D1400F93FB8 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				5AF361832B9ADD3C00DA5DB2 /* placeholder.png */,
+				5AD131CA2B988AF1004AB93B /* school1.jpg */,
+				5AD131C82B988AF1004AB93B /* school2.jpeg */,
+				5AD131C92B988AF1004AB93B /* school3.jpg */,
+				5A98D4CE2B95F2D90006F891 /* tick.png */,
+				5A98D4CA2B95EE700006F891 /* student.png */,
+				5A98D4CB2B95EE700006F891 /* teacher.jpg */,
+				5A4D56232B908D3800F93FB8 /* campuscircle-logo.png */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		5A4D56272B90936500F93FB8 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D56282B90938400F93FB8 /* FontAwesome.otf */,
+				5A4D562A2B9094C600F93FB8 /* Utill.swift */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		5A4D56322B90BAF500F93FB8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D562C2B90B5B100F93FB8 /* LoginViewController.swift */,
+				5A4D56302B90BAE600F93FB8 /* RegistrationViewController.swift */,
+				5AF5DD2D2B90DCC600D3F347 /* SelectorPopUpViewController.swift */,
+				5AA945A12B91ED9C00573580 /* SelectorPopUpTableViewCell.swift */,
+				5AE985F52B9224BF003FFEBF /* RegisterStudentViewController.swift */,
+				5A98D4D02B95FC470006F891 /* RegisterTeacherViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6712C6553A914049BFDFAC96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E1124812A4A1215295D9F3 /* Pods_CampusCircle.framework */,
+				70A348BAE27D13DF36D77CFB /* Pods_CampusCircle_CampusCircleUITests.framework */,
+				EEA69FC6AF41B6BFFA467B7C /* Pods_CampusCircleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4D55EB2B9087F900F93FB8 /* CampusCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4D56192B9087FB00F93FB8 /* Build configuration list for PBXNativeTarget "CampusCircle" */;
+			buildPhases = (
+				C084420FA07AAE5B6395AE7F /* [CP] Check Pods Manifest.lock */,
+				5A4D55E82B9087F900F93FB8 /* Sources */,
+				5A4D55E92B9087F900F93FB8 /* Frameworks */,
+				5A4D55EA2B9087F900F93FB8 /* Resources */,
+				3442949172A83F5F82951FFC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampusCircle;
+			productName = CampusCircle;
+			productReference = 5A4D55EC2B9087F900F93FB8 /* CampusCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4D56042B9087FB00F93FB8 /* CampusCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4D561C2B9087FB00F93FB8 /* Build configuration list for PBXNativeTarget "CampusCircleTests" */;
+			buildPhases = (
+				26B8BFC685A53A1FC25C027A /* [CP] Check Pods Manifest.lock */,
+				5A4D56012B9087FB00F93FB8 /* Sources */,
+				5A4D56022B9087FB00F93FB8 /* Frameworks */,
+				5A4D56032B9087FB00F93FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4D56072B9087FB00F93FB8 /* PBXTargetDependency */,
+			);
+			name = CampusCircleTests;
+			productName = CampusCircleTests;
+			productReference = 5A4D56052B9087FB00F93FB8 /* CampusCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4D560E2B9087FB00F93FB8 /* CampusCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4D561F2B9087FB00F93FB8 /* Build configuration list for PBXNativeTarget "CampusCircleUITests" */;
+			buildPhases = (
+				83A622DEAACA6D98346D9E8A /* [CP] Check Pods Manifest.lock */,
+				5A4D560B2B9087FB00F93FB8 /* Sources */,
+				5A4D560C2B9087FB00F93FB8 /* Frameworks */,
+				5A4D560D2B9087FB00F93FB8 /* Resources */,
+				DC36F6A12B03AA39D1CC65A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4D56112B9087FB00F93FB8 /* PBXTargetDependency */,
+			);
+			name = CampusCircleUITests;
+			productName = CampusCircleUITests;
+			productReference = 5A4D560F2B9087FB00F93FB8 /* CampusCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4D55E42B9087F900F93FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5A4D55EB2B9087F900F93FB8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5A4D56042B9087FB00F93FB8 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5A4D55EB2B9087F900F93FB8;
+					};
+					5A4D560E2B9087FB00F93FB8 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5A4D55EB2B9087F900F93FB8;
+					};
+				};
+			};
+			buildConfigurationList = 5A4D55E72B9087F900F93FB8 /* Build configuration list for PBXProject "CampusCircle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4D55E32B9087F900F93FB8;
+			productRefGroup = 5A4D55ED2B9087F900F93FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4D55EB2B9087F900F93FB8 /* CampusCircle */,
+				5A4D56042B9087FB00F93FB8 /* CampusCircleTests */,
+				5A4D560E2B9087FB00F93FB8 /* CampusCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4D55EA2B9087F900F93FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D55FF2B9087FB00F93FB8 /* LaunchScreen.storyboard in Resources */,
+				5AF361842B9ADD3C00DA5DB2 /* placeholder.png in Resources */,
+				5AD131CC2B988AF1004AB93B /* school3.jpg in Resources */,
+				5A98D4CC2B95EE700006F891 /* student.png in Resources */,
+				5A4D56292B90938400F93FB8 /* FontAwesome.otf in Resources */,
+				5A4D56242B908D3800F93FB8 /* campuscircle-logo.png in Resources */,
+				5A4D55FC2B9087FB00F93FB8 /* Assets.xcassets in Resources */,
+				5A98D4CD2B95EE700006F891 /* teacher.jpg in Resources */,
+				5AD131CB2B988AF1004AB93B /* school2.jpeg in Resources */,
+				5A98D4CF2B95F2D90006F891 /* tick.png in Resources */,
+				5AD131CD2B988AF1004AB93B /* school1.jpg in Resources */,
+				5A4D55F72B9087F900F93FB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D56032B9087FB00F93FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D560D2B9087FB00F93FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26B8BFC685A53A1FC25C027A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusCircleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3442949172A83F5F82951FFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusCircle/Pods-CampusCircle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusCircle/Pods-CampusCircle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampusCircle/Pods-CampusCircle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A622DEAACA6D98346D9E8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusCircle-CampusCircleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C084420FA07AAE5B6395AE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusCircle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC36F6A12B03AA39D1CC65A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusCircle-CampusCircleUITests/Pods-CampusCircle-CampusCircleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusCircle-CampusCircleUITests/Pods-CampusCircle-CampusCircleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampusCircle-CampusCircleUITests/Pods-CampusCircle-CampusCircleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4D55E82B9087F900F93FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF5DD2E2B90DCC600D3F347 /* SelectorPopUpViewController.swift in Sources */,
+				5AD131CF2B98A8DE004AB93B /* AddNewPostViewController.swift in Sources */,
+				5A2151BB2B97A50D003EBA82 /* RecentViewController.swift in Sources */,
+				5AD131C72B9881AD004AB93B /* PostTableViewCell.swift in Sources */,
+				5A4D562D2B90B5B100F93FB8 /* LoginViewController.swift in Sources */,
+				5A98D4D12B95FC470006F891 /* RegisterTeacherViewController.swift in Sources */,
+				5AA945A22B91ED9C00573580 /* SelectorPopUpTableViewCell.swift in Sources */,
+				5A4D55FA2B9087F900F93FB8 /* CampusCircle.xcdatamodeld in Sources */,
+				5A4D55F02B9087F900F93FB8 /* AppDelegate.swift in Sources */,
+				5A2151B72B97A063003EBA82 /* ProfileViewController.swift in Sources */,
+				5A4D55F22B9087F900F93FB8 /* SceneDelegate.swift in Sources */,
+				5A4D56312B90BAE600F93FB8 /* RegistrationViewController.swift in Sources */,
+				5AE985F62B9224BF003FFEBF /* RegisterStudentViewController.swift in Sources */,
+				5A4D56262B908F0800F93FB8 /* MainViewController.swift in Sources */,
+				5A2151B92B97A2F9003EBA82 /* HomeFeedViewController.swift in Sources */,
+				5A4D562B2B9094C600F93FB8 /* Utill.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D56012B9087FB00F93FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D560A2B9087FB00F93FB8 /* CampusCircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D560B2B9087FB00F93FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D56142B9087FB00F93FB8 /* CampusCircleUITests.swift in Sources */,
+				5A4D56162B9087FB00F93FB8 /* CampusCircleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4D56072B9087FB00F93FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4D55EB2B9087F900F93FB8 /* CampusCircle */;
+			targetProxy = 5A4D56062B9087FB00F93FB8 /* PBXContainerItemProxy */;
+		};
+		5A4D56112B9087FB00F93FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4D55EB2B9087F900F93FB8 /* CampusCircle */;
+			targetProxy = 5A4D56102B9087FB00F93FB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4D55F52B9087F900F93FB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4D55F62B9087F900F93FB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4D55FD2B9087FB00F93FB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4D55FE2B9087FB00F93FB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4D56172B9087FB00F93FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A4D56182B9087FB00F93FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4D561A2B9087FB00F93FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183EAA7BB069974ED0FB670D /* Pods-CampusCircle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CampusCircle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoy.CampusCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4D561B2B9087FB00F93FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A04920E2F6E4C3D98F8EFD /* Pods-CampusCircle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CampusCircle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoy.CampusCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4D561D2B9087FB00F93FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989109CD7FAF7D9A192C60C2 /* Pods-CampusCircleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoy.CampusCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusCircle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampusCircle";
+			};
+			name = Debug;
+		};
+		5A4D561E2B9087FB00F93FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0D1B0745B3626B78709ABA /* Pods-CampusCircleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoy.CampusCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusCircle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampusCircle";
+			};
+			name = Release;
+		};
+		5A4D56202B9087FB00F93FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27ADED9FFF5892FB08CF88B9 /* Pods-CampusCircle-CampusCircleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoy.CampusCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampusCircle;
+			};
+			name = Debug;
+		};
+		5A4D56212B9087FB00F93FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD24A5ADFC530996C0228C27 /* Pods-CampusCircle-CampusCircleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoy.CampusCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampusCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4D55E72B9087F900F93FB8 /* Build configuration list for PBXProject "CampusCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D56172B9087FB00F93FB8 /* Debug */,
+				5A4D56182B9087FB00F93FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4D56192B9087FB00F93FB8 /* Build configuration list for PBXNativeTarget "CampusCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D561A2B9087FB00F93FB8 /* Debug */,
+				5A4D561B2B9087FB00F93FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4D561C2B9087FB00F93FB8 /* Build configuration list for PBXNativeTarget "CampusCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D561D2B9087FB00F93FB8 /* Debug */,
+				5A4D561E2B9087FB00F93FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4D561F2B9087FB00F93FB8 /* Build configuration list for PBXNativeTarget "CampusCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D56202B9087FB00F93FB8 /* Debug */,
+				5A4D56212B9087FB00F93FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A4D55F82B9087F900F93FB8 /* CampusCircle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A4D55F92B9087F900F93FB8 /* CampusCircle.xcdatamodel */,
+			);
+			currentVersion = 5A4D55F92B9087F900F93FB8 /* CampusCircle.xcdatamodel */;
+			path = CampusCircle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A4D55E42B9087F900F93FB8 /* Project object */;
+}

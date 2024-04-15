@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EBAF5FA1-B517-49CD-90B8-3D690AF8CC94"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "852550EA-BA78-42AF-9014-8A8CF066FC50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CampusCircle/Dashboard/AddNewPostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "postBtnPress(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "852550EA-BA78-42AF-9014-8A8CF066FC50 - 2b1aa42573e7a89a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "852550EA-BA78-42AF-9014-8A8CF066FC50 - 2b1aa42573e7a89a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF3B1C60-7A1B-4523-B459-D318664F5DC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CampusCircle/Dashboard/AddNewPostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "postBtnPress(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF3B1C60-7A1B-4523-B459-D318664F5DC8 - 2b1aa42573e7a8d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  uuid = "BF3B1C60-7A1B-4523-B459-D318664F5DC8 - 2b1aa42573e7a8d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "1504">
+               </Location>
+               <Location
+                  uuid = "BF3B1C60-7A1B-4523-B459-D318664F5DC8 - 2b1aa42573e7a8d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "BF3B1C60-7A1B-4523-B459-D318664F5DC8 - 2b1aa42573e7a8d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "1484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F561AC8-732B-4529-BF5F-9C66D1768D64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CampusCircle/Dashboard/AddNewPostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "postBtnPress(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F561AC8-732B-4529-BF5F-9C66D1768D64 - 2b1aa42573e7a89a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "2F561AC8-732B-4529-BF5F-9C66D1768D64 - 2b1aa42573e7a89a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CampusCircle.AddNewPostViewController.postBtnPress(Any) -&gt; ()"
+                  moduleName = "CampusCircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac-high-13/Desktop/CampusCircle/CampusCircle/Dashboard/AddNewPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
